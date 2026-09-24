@@ -158,7 +158,7 @@ def main():
     
     while True:
         print("\n========================================")
-        print("    SISTEMA DE GESTIÓN - SMARTGASTRO    ")
+        print("    SISTEMA DE GESTIÓN - RUTAFINA    ")
         print("========================================")
         print("¿Cómo desea ingresar?")
         print("1. Soy Usuario (Cliente)")
@@ -172,7 +172,7 @@ def main():
         elif rol == "2":
             sistema.menu_restaurante()
         elif rol == "3":
-            print("\n¡Gracias por utilizar SmartGastro!")
+            print("\n¡Gracias por utilizar RUTAFINA!")
             break
         else:
             print("Opción no válida. Intente nuevamente.")
