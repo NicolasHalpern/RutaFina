@@ -17,7 +17,7 @@ class Pedido:
 class SistemaSmartGastro:
     def __init__(self):
         self.pedidos = []
-        # Repartidores propios del comercio (2 o 3 repartidores)
+        # Repartidores propios 
         self.repartidores = [
             {"id": 1, "nombre": "Carlos (Moto 1)"},
             {"id": 2, "nombre": "Lucía (Moto 2)"},
@@ -25,7 +25,6 @@ class SistemaSmartGastro:
         ]
         self.contador_id = 101  # ID inicial de ejemplo
 
-    # ==================== PERSPECTIVA: USUARIO / CLIENTE ====================
     def menu_usuario(self):
         while True:
             print("\n=== PORTAL DE CLIENTE (USUARIO) ===")
@@ -70,7 +69,6 @@ class SistemaSmartGastro:
             else:
                 print("Opción inválida.")
 
-    # ==================== PERSPECTIVA: RESTAURANTE / COMERCIO ====================
     def menu_restaurante(self):
         while True:
             print("\n=== PANEL DE CONTROL (RESTAURANT) ===")
@@ -152,7 +150,6 @@ class SistemaSmartGastro:
         return None
 
 
-# --- Ejecución Principal del Sistema ---
 def main():
     sistema = SistemaSmartGastro()
     
